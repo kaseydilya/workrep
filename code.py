@@ -25,3 +25,4 @@ except ModuleNotFoundError:
                 DATA_DIR = "Duino-Coin PC Miner " + str(data["tag_name"]) # Create new version config folder
                 if not Path(DATA_DIR).is_dir():
                     mkdir(DATA_DIR)
+#nice
