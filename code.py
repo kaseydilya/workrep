@@ -6,7 +6,7 @@ except ModuleNotFoundError:
           + "If it fails, please manually execute " 
           + "python3 -m pip install psutil")    
     install("psutil")
-
+#yes
 try:
     from pypresence import Presence
 except ModuleNotFoundError:
